@@ -1,0 +1,14 @@
+###
+POST http://localhost:8080/api/v1/student
+
+<> 2024-05-17T165432.400.json
+<> 2024-05-17T165430.400.json
+<> 2024-05-17T165429.400.json
+<> 2024-05-17T165421.400.json
+{
+  "name": "Bilal",
+  "email": "bilal@gmail.com",
+  "dob": "2002-12-02",
+}
+
+###

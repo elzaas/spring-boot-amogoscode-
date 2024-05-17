@@ -6,7 +6,7 @@ import java.time.LocalDate;
 import java.time.Period;
 
 @Entity //for hibernate
-@Table
+@Table(name ="students")
 public class Student {
     @Id
     @SequenceGenerator(
@@ -44,6 +44,10 @@ public class Student {
         this.name = name;
         this.email = email;
         this.dob = dob;
+
+    }
+
+    public Student() {
 
     }
 
